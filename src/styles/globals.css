@@ -1,0 +1,44 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary-red: #dc2626;
+  --color-primary-dark: #0a0a0a;
+  --color-primary-charcoal: #1a1a1a;
+  
+  --font-family-heading: 'Poppins', system-ui, sans-serif;
+  
+  --animate-pulse-slow: pulse 3s ease-in-out infinite;
+  --animate-gradient: gradient 8s ease infinite;
+}
+
+@keyframes gradient {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dc2626;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b91c1c;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
