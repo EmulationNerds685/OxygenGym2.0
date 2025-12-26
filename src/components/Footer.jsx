@@ -8,7 +8,7 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: <FiInstagram />, label: 'Instagram', href: '#' },
+    { icon: <FiInstagram />, label: 'Instagram', href: 'https://www.instagram.com/oxxygengym' },
     { icon: <FiFacebook />, label: 'Facebook', href: '#' },
     { icon: <FiTwitter />, label: 'Twitter', href: '#' },
     { icon: <FiYoutube />, label: 'YouTube', href: '#' },

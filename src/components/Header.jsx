@@ -70,7 +70,7 @@ const Header = () => {
             ))}
             
             <motion.a
-              href="tel:+919876543210"
+              href="tel:+918470899395"
               whileHover={{ scale: 1.05 }}
               className="flex items-center space-x-2 bg-primary-red px-6 py-3 rounded-full font-bold hover:bg-red-600 transition-all duration-200"
             >
@@ -110,7 +110,7 @@ const Header = () => {
                   </a>
                 ))}
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+918470899395"
                   className="flex items-center justify-center space-x-2 bg-primary-red px-6 py-3 rounded-full font-bold hover:bg-red-600 transition-all duration-200 mt-4"
                 >
                   <FiPhone />
